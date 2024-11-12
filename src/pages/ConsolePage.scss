@@ -1,0 +1,37 @@
+[data-component='ConsolePage'] {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 11px;
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 2px 2px;
+  & > div {
+    flex-shrink: 0;
+  }
+  
+.ConsolePage {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000; // Adjust as needed
+  color: #fff; // Adjust as needed
+
+
+  .content-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    }
+
+    .content-logs {
+      flex: 1;
+      overflow-y: auto;
+    }
+  }
+}
